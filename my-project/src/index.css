@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden ;
+}
+.animateMove {
+    animation: animate 500ms ease-in-out  ;
+}
+
+@keyframes animate {
+    0% {
+        width: 10vw;
+    },
+    10% {
+        width:  20vw;
+    },
+    30% {
+        width:30vw;
+    },
+    40% {
+        width:40vw;
+    },
+    50% {
+        width:50vw;
+    },
+    60% {
+        width:60vw;
+    },
+    70% {
+        width:70vw;
+    },
+    80% {
+        width:80vw;
+    },
+    90% {
+        width:90vw;
+    },
+    100% {
+        width:100vw;
+    }
+}
