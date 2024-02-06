@@ -18,7 +18,7 @@ const Navbar = () => {
       <img className='w-[100px] h-20   object-contain  ' src={text}/>
       
       </div>
-             <button className='flex absolute top-14 right-20 text-[40px]  text-white ' onClick={() => setIsMenu(!isMenu)} >X</button>
+             <button className='flex absolute top-14 right-10 sm:right-20 text-[40px]  text-white ' onClick={() => setIsMenu(!isMenu)} >X</button>
              <div className="text-white gap-4 absolute left-10 top-[30%] flex flex-col text-[30px] ">
         <a href="">Services</a>
         <a href="" className='relative flex gap-4' >Products <p onClick={(e) => {
